@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Jello Whirled: Spring Boot Flavor";
+		return "Jello Whirled: Spring Boot Flavor. Now rocking secure authentication";
 	}
 
 }
